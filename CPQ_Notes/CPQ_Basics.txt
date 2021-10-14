@@ -1,0 +1,31 @@
+Get Started with Salesforce CPQ
+
+CPQ = Configure Price Quote
+
+CPQ helps build efficiency when closing deals
+
+Configure - pick out what they'll buy
+Price - we add it up
+Quote - generates a PDF
+
+Configure
+    Uses smart rules to make sure you and your reps sell related products together 
+    prevents incompatible products ending up on the same Quote
+
+Price
+    Can apply discounts and Salesforce handles the rest
+    Kind of like a built in case register
+
+Quote 
+    automatically generates a quote for you with e-signature integration
+
+Learn About Quotes
+
+A Quote can mean
+    a document that contains info regarding products and services your customer wants to buy including 
+    contact information
+    a table of prices adding up to a grand total 
+    places to add signatures and dates
+
+Quotes get created from Opportunities and use standard Salesforce Products
+Only One Quote can be primary to an Opportunity
