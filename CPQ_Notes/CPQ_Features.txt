@@ -1,0 +1,25 @@
+Salesforce CPQ Features
+
+Lead to Cash Life Cycle
+each of the stages help to build loyalty and a strong long lasting relationship with customers 
+and value them as people
+
+Then Versus Now
+Traditional CPQ rep can Pull Prices and Producrs and Generate Quotes
+
+Salesforce CPQ take sit further by compiling quotes and deal data in one places
+Quotes also contain critical info on what services were sold
+Reps can see what was sold, how much and when customers are due for renewals
+
+Product and Price rules
+
+Product rules help ensure sales reps are putting together the right products and bundles every single time
+Increases accuracy and customer satisfaction
+
+4 kinds of Product rules
+Validation - confirms quote product combinations or quote line field values match your conditions
+Selection - automatically adds, removes, hides, enables or disables options in a bundle
+Filter - Prefilters products that are available to add to a bundle
+Alert - Guides or informs through messages during configuration or pricing
+
+Price rules
