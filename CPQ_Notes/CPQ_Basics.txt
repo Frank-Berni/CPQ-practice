@@ -29,3 +29,61 @@ A Quote can mean
 
 Quotes get created from Opportunities and use standard Salesforce Products
 Only One Quote can be primary to an Opportunity
+
+Select Products
+
+Helps to minimize problems where you don't know whuch products meet your customer's requirements or 
+if some products have to be combined with other products to function
+
+After creating a quote, you add products by clicking Add Products
+THis list of products updates wheneber new products are created or old products are retired, 
+Products can be grouped by Product Family to make selection easier
+
+Guided selling begins when you start adding products to a quote
+Answers to the questions determine which products CPQ suggests and you get a dynamic responsive experience
+with each quote created
+
+Bundles
+Good when component products depend on each other
+Helps simplify product selection and upsells and future Optional purchases
+Example: Computers and offering any extra peripherals
+Invalid combinations aren't possible with bundles so viable quotes are guaranteed
+
+Calculate Prices
+The CPQ pricing calculator helps keep track of correct pricing and avoid calculation errors
+When products are added to the quote, the quote automatically calculates the product prices as well as any updates made afterward
+Subscription products and prices are automatically calculated as well, based on the subscription term you defined when the quote was created
+
+Starting point for all prices is the standard Price Book and this can be expanded on when you have multiple price books
+You can also use different pricing methods on a product by product basis
+Cost Plus Markup pricing method can be used when unit costs are set for a product
+Block Price method can be used to lock a specific price if a quantity falls in a certain range
+
+CPQ offers tiered discounts for volume based prices
+Sales team can manually enter discounts line by line
+
+Generate PDF Quotes
+
+PDF quotes are good for... 
+having a summary of details about products and services that a customer is considering
+having a breakdown of prices and totals of those items
+providing accurate information in a standardized format
+having signature fields especially e-signatures
+
+Dyanmic quotes
+Ability to hide specific columns in line items table under certain conditions 
+Can add supplemental documents to the quotes
+The document gets stored on the quote and its Opportunity
+It can be shared via email attachment when using a standard Salesforce email template
+
+Manage Contracts and Renewals
+
+When there are subscription based products or services, these have start and end dates.
+Toward the end a Closed Won quote and Opportunity result in a contract for the duration of those subscription
+
+The contracted field triggers the contract and renewal cycle which can be automated when an Opp is marked as Closed/Won
+Whenever a contract is amended, CPQ creates a new quote and opportunity 
+which prices according to how much time is left on the contract
+
+CPQ can automatically create renewal opportunities and quotes for subscription products before it ends
+The renewal can also automate when its ready for a final quote 
