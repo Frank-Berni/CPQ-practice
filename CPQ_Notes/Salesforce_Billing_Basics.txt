@@ -1,0 +1,91 @@
+Get Started with Salesforce Billing
+
+Salesforce Billing helps imporve service delivery and payment experience for customers and
+optimziing how Finance works with Sales and other teams 
+
+Salesforce enabling you to help customers at each touchpoint - Marketing to Sales to Finance to Service and everywhere in between
+is called Lead to Cash 
+
+You first start with Sales Cloud - managing sales data, leads and opportunities then to configure, price and quote process with Salesforce CPQ
+At the tail end is where you generate contracts and orders, setting up foundation for billing your customer and that's where Billing is 
+
+Recurring Business/ Recurring Revenue
+    Many traditional, siloed systems dont have the functiuonality to manage complexity that comes along with recurring business 
+    such as how to treat the concept of time, contract amendments and proration so Billing helps with this 
+True Cross Team Collaboration
+    When using a single platform you can work more closely with teams that may have been siloed in the past 
+    There's a whole process from selling to billing that need to be thought through befor executing
+
+Consider the Revenue lifecycle which starts with Sales
+Opportunity > Quote > Contract 
+    Finance, Sales and Sales Operations being interdependent
+    The efficiency of all these aspects is important to success of the business 
+
+Order > Invoice > Payment
+
+Manage the Billing process
+
+Finance's Seat at the Table
+It's Important to Understand that even though its used by Sales, Salesforce CPQ really is the first stop for the Finance team 
+
+Contract gets generated, where the terms and commitments influence the way you recognize revenue 
+Order then gets created which helps track bookings and generates the invoice 
+Its important that these get done right so Billing can take this information 
+and continue the process through invoice to accounts receivable
+
+Opportunities provided through Billing
+    True automation, data flows easily from quotes, contracts and orders into invoicing
+    Sales to Finance gap is eliminated. Both teams can easily adapt since they are on the same platform working 
+
+Time is on your Side 
+    Salesforce Billing brings CPQ around full circle 
+Benefits:
+    Align Billing dates across Amendments 
+    Override Billing Dates 
+    Hold Billing 
+    Proration 
+
+Since Salesforce CPQ manages the subscription and amendments, you can see the exact amount that will be billed early 
+in the quoting process for both new orders and orders generated from contract amendments.
+
+Give Finance a Helping Hand 
+
+If you deliver on an experience that works, odds are you've just converted a customer in an advocate
+Billing helps to make things easier especially in the face of change 
+
+Invoice Exectuion 
+    One time invoicing - ability to manually post invoices
+    Recurring invoicing - ability to automate invoices that meet a specific criteria. Ideal for common, transactional interactions
+    Variable Invoicing/ Dynamic Invoice Plan - for non-standard billing frequencies, such as billing to milestones or project acceptance
+
+Streamlined Order to Invoice Conversion
+    When Sales and Finance are separated, you can run the risk of inaccuracy and confused processes 
+    If you attempt to introduce it through recurring business, the process breaks down 
+    With Salesforce CPQ and Billing, end to end customer engagment can be managed in Salesforce in the ERP  
+
+Deploy and Integrate with Salesforce Billing 
+    
+    Lead to Invoice - solves scale challenges when launching new products, invoicing challenges with subscription, 
+        usage metrics and consumption utility charges. Financial operations and accounting is still managed in ERP but with cleaner data 
+    
+    Lead to Cash - Billing supports invoicing and orchestrates collections. Clean data is handed off for GL and reporting
+
+Tax Management 
+    flexibility to set up unique tax rules for each product. You can determine:
+        Whether or not a product should be taxed in the first place
+        What integration should be used 
+        Tax Codes 
+        GL rules to direct the record keeping process 
+
+Payment 
+    Native integrations with payment systems like PayPal, Authorize.net and CyberSource are available for the Lead to Cash model
+    You can set up debit or credit notes against invoices 
+    
+You can: 
+    Process Payments - process full or partial payments using stored payment methods against invoices and at the individual line level
+    Recurring Payments - enables you to automate the payment process. Rules are set up to have Billing evaluate invoices over time and make scheduled payments
+    Apply Credits and Debits - issues stand alone credit or debit notes and apply notes to individual voice lines
+
+ERP 
+    Once you have a deployment model picked, Salesforce or Systems Integrator can help identify the right type of integration 
+    Salesforce offers native connectors with major ER{ systems and a catalog of partners who can help you figure out the best approach
