@@ -22,4 +22,66 @@ Selection - automatically adds, removes, hides, enables or disables options in a
 Filter - Prefilters products that are available to add to a bundle
 Alert - Guides or informs through messages during configuration or pricing
 
-Price rules
+Price rules help control quoting and optimize sales
+automate price calculations and update quote line fields
+They inject a static value, field value or summary variable into a quote or quote line field
+They can be activated by clicking Save or Calculate
+
+Also accounts for conditions as well
+Ex: If 2 ink cartridges sell for each printer and increase quantity to 3 printers sold, the cartridges also update to 6
+
+Multi Dimensional Quoting creates more dynamic ways to handle subscriptions
+You can set up  blocks of time for line items with quantity and discounts separate from one another, 
+and these can update without having to add new line items
+
+Advanced Approvals and Advanced Order Management
+Salesforce CPQ offeres Advanced Approvals for more involced approval workflows
+
+Key Features of Advanced Approvals
+Smart Approvals
+    if an approver or approval gropu has already approved a quote and it gets rejected in a higher tier, 
+    the same approver or group isn't required to reapprove when the quote is resubmitted
+
+Requiring Approvals
+    Reps have complete visibility into what approvals they'll need to obtain as they work on their quotes, 
+    so there is no surprised when they submit for approval
+
+Delegating Approvers
+    Used for assigning an approver to take over for someone while they are out of office
+
+Replacing Approvers
+    if a certain approver is no longer required to approve quotes, they can be replaced with clicks. 
+    Eliminates need to look into every approval process the older approver was a part of and manually replace them
+
+Strong checks and balances in place with the right approval processes ensures a few things
+    reps are making appropriate commitments
+    there are no surprises down the line for legal or Service Teams
+
+AOM (Advanced Order Management)
+    Great for Businesses that need to place multiple orders against a single quote
+    Can split orders to create multiple orders from a single quote, letting you send products to multiple locations or at different times
+
+Key Features
+    Fulfill Orders Faster - seamlessly generate orders from quotes to quickly get products and services delivered to your customers
+    Flexible for Evolving Customer Needs - split quotes into multiple orders, manage future dated orders and modifer with point and click 
+    360 Degree View of the Customer - quickly generate contracts with all contract term, pricing, asset and subscription details
+    Connect to Back Office - Sync order details to ERP for order fulfillment
+
+
+How CPQ Treats Time 
+    Salesforce CPQ has the concept of time built in it 
+    Along with Product and Price Rules and Advanced Approvals and Advanced Order Management, there's another area where time is critical 
+    
+    Renewal Opportunities and Quotes 
+        These can be automated
+        When Renewals are in play, a renewal opportunity and quote is created automatically
+        A reminder is also sent to the team team when a renewal is coming up 
+        All that needs to be done is to check the data is correct in the
+
+Understanding when and how to engage is important in a customer relationship
+
+Product and pricing rules help product and pricing teams establish value and determine how to better package what you’re selling.
+Advanced approvals enable sales, operations, and legal teams to work better together to ensure there are appropriate checks and balances.
+Advanced order management helps post-sales teams (think services and partners) deliver as expected and on time.
+With all this data centralized, and with how Salesforce CPQ treats time, these teams can keep a better eye 
+on the customer and iterate for better execution and delivery.
