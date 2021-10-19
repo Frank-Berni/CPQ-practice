@@ -1,0 +1,43 @@
+Products can bundled with other Products 
+
+Product Options
+Under a main Product, options can be added in as child record
+Lazer Printer can have Toner, Paper and a Tray as options that come with it
+
+Order and Selectability
+    Number - sorts the options on the Configure Products page
+    Selected - Selects options by default. 
+    Required - Selects an option and prevents it being unselected
+    Quantity - sets a number of an option to be given
+    Quantity Editable - whether it can be changed or not
+    Min Quantity - the starting value 
+
+Option types can also be customized as well
+    Component - multiples the option quantity by the bundle quantity and locks the result
+    Acessory - uses option quantity regardless of bundle quantity
+    Related Product - USes option quantity regardless of bundle quantity but allows changes after configuration
+
+Features are a way of group similar options 
+    When you edit related Features on a product you can create a new record for it 
+    Afterwards you can assign that Feature to any relevant Options under the Feature field
+    Then when you open the configurator, the QLE will separate each Feature accordiningly, 
+    any unnamed features are named Other 
+
+Max Options in the QLE show radio buttons instead of checkboxes
+The AdditionalInstructions as a text (long) field can be added that puts text below the feature name, 
+helps with guiding sales reps
+
+Feature Categories can also help organize features, which have their own tabs
+    Under the values picklist you can add more options to choose from
+
+Configuration Field Set
+    Set up under Product Option > Field Sets > New 
+    Once you create the Field Set Label and Name, you can drag the fields you want included in the set 
+    Under Product Feature > Fields & Relationships > Configuration Field Set > add that Field Set created to the picklist 
+    Then you click the Product you want > Related Tab > Click on a Feature > Set Configuration Field Set to the one you created 
+
+Configured Code - helps with automating the catalog process
+    You can add Component Codes under a related product's options such as -P22
+    Component Code Position acts an index for it 
+    Under the main Product you can enter the Configured Code Pattern to control how they are shown, ex: LAP{1}{2}{3}
+    In the QLE, you can see these changes under the blue arrow, on the right

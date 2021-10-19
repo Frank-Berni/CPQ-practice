@@ -1,0 +1,12 @@
+Smartwatch CPQ project
+
+Remember a bundle is a collection of related products 
+Prevent SKU profileration with Configuration attributes and Global attributes 
+
+    Configuration attributes (can be found at the top of the configuration page) 
+        configuration attributes are not actually fields, but are visible manifestations of fields
+    Global attributes are reusable
+
+So Far...
+Created the Accent and Size fields on the Product Option object
+Need to change the configuration attribute to be continued
